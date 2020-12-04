@@ -54,8 +54,8 @@
                                             <td>{{ $no++ }}</td>
                                             <td>{{ $r->kode_produk }}</td>
                                             <td>{{ $r->nama_produk }}</td>
-                                            <td>{{ $r->harga_jual }}</td>
-                                            <td>{{ $r->harga_beli }}</td>
+                                            <td>Rp. {{ number_format($r->harga_jual) }}</td>
+                                            <td>Rp. {{ number_format($r->harga_beli) }}</td>
                                             <td>{{ $r->nama_unit }}</td>
                                             <td>{{ $r->nama_kategori }}</td>
                                             <td>

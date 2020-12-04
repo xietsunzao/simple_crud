@@ -26,6 +26,14 @@
                     <a href="{{ route('product') }}" class="nav-link">
                         <i class="nav-icon fas fa-th"></i>
                         <p>
+                            Dashboard
+                        </p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="{{ route('product') }}" class="nav-link">
+                        <i class="nav-icon fas fa-th"></i>
+                        <p>
                             Data Produk
                         </p>
                     </a>
